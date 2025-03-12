@@ -11,9 +11,11 @@ function App() {
       <main className="max-w-7xl mx-auto py-20 grid md:grid-cols-2">
         <div>
           <h2>Menu</h2>
-          {menuItems.map((item) => (
-            <MenuItem key={item.id} item={item} />
-          ))}
+          <div className="space-y3">
+            {menuItems.map((item) => (
+              <MenuItem key={item.id} item={item} />
+            ))}
+          </div>
         </div>
         <div>
           <h2 className="">Consumo</h2>
