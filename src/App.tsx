@@ -19,7 +19,7 @@ function App() {
             ))}
           </div>
         </div>
-        <div>
+        <div className=" border border-dashed border-gray-300 p-5 rounded-lg">
           <h2 className="">Consumo</h2>
         </div>
       </main>
